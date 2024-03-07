@@ -1,4 +1,5 @@
 ﻿using Xunit;
+using WebApplication.Controllers;
 
 namespace UnitTestProject
 {
@@ -8,7 +9,9 @@ namespace UnitTestProject
         [Fact]
         public void TestMethod1()
         {
-            Assert.True(true);
+            var controller = new ValuesController();
+            Assert.Equal(controller.Get()[0],"value1");
         }
+
     }
 }

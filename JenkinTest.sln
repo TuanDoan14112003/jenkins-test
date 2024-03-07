@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinTest", "JenkinTest\JenkinTest.csproj", "{C35BCCA9-C375-4A81-9A66-FC924A218E7E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{6E7DBE03-D347-4BD5-8775-A9FA3F576780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{9B8876DF-673F-4CE0-8D70-EB428B51D8F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C35BCCA9-C375-4A81-9A66-FC924A218E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C35BCCA9-C375-4A81-9A66-FC924A218E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C35BCCA9-C375-4A81-9A66-FC924A218E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C35BCCA9-C375-4A81-9A66-FC924A218E7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E7DBE03-D347-4BD5-8775-A9FA3F576780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E7DBE03-D347-4BD5-8775-A9FA3F576780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E7DBE03-D347-4BD5-8775-A9FA3F576780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E7DBE03-D347-4BD5-8775-A9FA3F576780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8876DF-673F-4CE0-8D70-EB428B51D8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8876DF-673F-4CE0-8D70-EB428B51D8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8876DF-673F-4CE0-8D70-EB428B51D8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8876DF-673F-4CE0-8D70-EB428B51D8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
